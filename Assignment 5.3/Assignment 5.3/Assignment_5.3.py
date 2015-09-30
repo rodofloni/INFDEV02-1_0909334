@@ -1,7 +1,7 @@
-import re
+﻿import re
 import sys
 while True:
-  txt = input("||Text:   ")
+  txt = raw_input("||Text:   ")
   shift = int(input("||Steps:  "))
   length = len(txt)
   counter = 0
