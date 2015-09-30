@@ -1,10 +1,10 @@
-import re
+﻿import re
 while True:
-    password = input("Enter the desired Password: ")
+    password = raw_input("Enter the desired Password: ")
     if len(password) < 1:
-        print()
+        print
         print("You are taking me in the mailing")
-        print()
+        print
 
 
     pw_score = 0
